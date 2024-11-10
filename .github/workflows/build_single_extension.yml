@@ -5,7 +5,8 @@ on:
     inputs:
       lang:
         description: Extension language (en, ar, es, pt...)
-        required: true
+        default: 'id'
+        required: false
       extension:
         description: Target extension name
         required: true
